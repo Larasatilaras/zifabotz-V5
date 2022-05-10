@@ -9,7 +9,7 @@ const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
 ╭═══════════════════════⬣
-║╭──❉ 〔⳹ ❋ཻུ۪۪𝐉𝐀𝐑𝐎𝐓𝐓 𝐁𝐎𝐓𝐙⳹ ❋ཻུ۪۪〕 ❉──────
+║╭──❉ 〔⳹ ❋ཻུ۪۪𝐑𝐀𝐒𝐁𝐎𝐓𝐙⳹ ❋ཻུ۪۪〕 ❉──────
 ║│➸Hai, %name!
 ║│➸Tersisa *%limit Limit*
 ║│➸Role *%role*
@@ -32,7 +32,7 @@ const defaultMenu = {
   body: '║│➸%cmd %islimit %isPremium',
   footer: '*╰───❉*\n',
   after: `
-  ⬣━〔Powered By 𝐉𝐚𝐫𝐨𝐭𝐭〕━⬣
+  ⬣━〔Powered By Laras〕━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -222,10 +222,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `╭═══════════════════════
-║╭──❉ 〔 ⳹ ❋ཻུ۪۪𝐁𝐎𝐓 𝐉𝐀𝐑𝐎𝐓⳹ ❋ཻུ۪۪ 〕 ❉────── 
+║╭──❉ 〔 ⳹ ❋ཻུ۪۪𝐁𝐎𝐓 𝐑𝐀𝐒𝐙⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸⏰Aktif selama ${uptime}
 ║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-║│➸ Nama bot: *𝐁𝐎𝐓𝐓 𝐉𝐑*
+║│➸ Nama bot: *𝐑𝐀𝐒𝐁𝐎𝐓𝐙*
 ║│➸ *${conn.blocklist.length}* Terblock
 ║│➸ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
@@ -252,15 +252,15 @@ _____•••••••••
                                     "rowId": ".setelangrub"
                                 }, {
 "title":      "|🛒| ❯╾Store Menu╼-",
-                                    "description": "store di JAROTTbotz",
+                                    "description": "store di RasBotz",
                                     "rowId": ".iklan"
                                 }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
-                                    "description": "bergabung bersama bot JAROTT",
+                                    "description": "bergabung bersama bot RasBotz",
                                     "rowId": ".jadibot"
                                 }, {
   "title":  "|🙇‍♂️| ❯╾group╼-",
-                                    "description": "bergabung di grub bersama bot JAROTT",
+                                    "description": "bergabung di grub bersama bot RasBotz",
                                     "rowId": ".gcbot"
                                 }, {
   "title":  "|📒| ❯╾biodata owner╼-",
@@ -403,7 +403,7 @@ _____•••••••••
                                     "rowId": ".waifu"
                                 }, { 
 "title": "|🅿️|─────「 31 」",
-                                    "description": "profile anda di JAROTTotz",
+                                    "description": "profile anda di RasBotz",
                                     "rowId": ".profile"
                                 }, { 
                                     "title": "|👩‍⚖️|─────「 32 」",
@@ -413,7 +413,7 @@ _____•••••••••
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "|👩‍💻| Owner JAROTTBOTZ",
+                                    "title": "|👩‍💻| Owner RASBOTZ",
                                     "description": "pemilik OscarBOTZ",
                                     "rowId": ".owner"
                                 }, {
@@ -421,7 +421,7 @@ _____•••••••••
                                     "description": "Status dan informasi bot",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "|🖨️| Rules JAROTTbotz",
+                                    "title": "|🖨️| Rules RasBotz",
                                     "description": "Mari menaati peraturan demi Kita bersama",
                                     "rowId": ".rules"
                                 }, {
