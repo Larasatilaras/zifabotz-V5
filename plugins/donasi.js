@@ -5,9 +5,9 @@ let handler = async (m, { conn }) => {
 
 let str = `››╭─〘 *Donasi* 〙
 ╭╡📮: Donasi ngab jgan gunain doang.
-│┝‷✧ *Pulsa:* 6285850539404
-│┝‷✧ *Dana:* 6285850539404
-│┝‷✧ *Gopay:* 6285828764046
+│┝‷✧ *Pulsa:* 6285759662798
+│┝‷✧ *Dana:* 6285759662798
+│┝‷✧ *Gopay:* 6285759662788
 │╰───···─────
 │⁺◛˖ Ingin Donasi? Chat nomor dibawah
 ╰──────────···───╮`
@@ -22,14 +22,14 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
-        "title": "DONASI JAROTTBOTZ",
+        "title": "DONASI RASBOTZ",
         "description": '\n' + wm + '\n' + str,
         "retailerId": "Thanks For Donate !",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
         "descriptionCount": "999999999",
         "productImageCount": "1",
       },
-      "businessOwnerJid": "6285850539404@s.whatsapp.net",
+      "businessOwnerJid": "6285759662798@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": false
