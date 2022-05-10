@@ -4,7 +4,7 @@
 // Zifabotz
 
 let fs = require('fs')
-global.owner = ['6285850539404', '6285850539404','6285850539404', '6285850539404', '6285850539404'] // Letakan nomor kamu disini
+global.owner = ['6285759662798', '6285759662798','6285798542403', '6285798542403', '6285798542403'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -41,13 +41,13 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'JAROTT'
-global.author = 'JAROTT'
+global.packname = 'RASZ'
+global.author = 'LARASCHANN'
 
 global.wait = '▰▰▰▰▱▱▱▱▱▱ ʟᴏᴀᴅɪɴɢ...'
 global.eror = '「❗」Server LAGI ERROR COK!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '© OSCAR BOTZ' //change the watermark 
+global.watermark = '© RAS BOTZ' //change the watermark 
 global.image = 'https://telegra.ph/file/052ca138a613c8859756f.jpg' //change the image
 global.thumbfoto = 'https://telegra.ph/file/3c11a4cda6bce78a2e2f7.jpg'
 
