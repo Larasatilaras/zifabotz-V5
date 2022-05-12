@@ -244,7 +244,7 @@ _____•••••••••
                                     "rowId": ".donasi"
                                 }, {
                                     "title":      "|🖼️| ❯╾Daftar╼-",
-                                    "description": "Daftar diri anda di JAROTTbotz",
+                                    "description": "Daftar diri anda di Rasbotz",
                                     "rowId": ".daftar"
                                 }, {
  "title":      "|🎲| ❯╾Setelan grub╼-",
@@ -414,7 +414,7 @@ _____•••••••••
                             }, {
                                 "rows": [{
                                     "title": "|👩‍💻| Owner RASBOTZ",
-                                    "description": "pemilik OscarBOTZ",
+                                    "description": "pemilik RasBOTZ",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "|🛠|Status bot",
